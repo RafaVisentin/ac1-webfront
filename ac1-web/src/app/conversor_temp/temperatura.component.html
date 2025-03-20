@@ -1,0 +1,9 @@
+<h1>Conversor de Temperatura</h1>
+
+<label for="celsius" class="form-label">Temperatura em Celsius (°C):</label>
+<input type="number" [(ngModel)]="celsius" class="form-control">
+
+<button (click)="converterTemperatura()" class="btn btn-primary mt-2 mb-2">Converter</button>
+
+<p>Fahrenheit: {{ fahrenheit }} °F</p>
+<p>Kelvin: {{ kelvin }} K</p>
